@@ -15,6 +15,7 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             Text("Change 1")
+            Text("Change 2")
             List {
                 ForEach(items) { item in
                     NavigationLink {
